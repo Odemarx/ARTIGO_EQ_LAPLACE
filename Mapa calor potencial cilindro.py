@@ -1,10 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[42]:
-
-
-#MAPA DE CALOR DO POTENCIAL ELÉTRICO NO PLANO ZX----------
+#MAPA DE CALOR DO POTENCIAL ELÉTRICO NO PLANO ZX------------------------------------------
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.special import jn
@@ -45,10 +42,7 @@ plt.title('Mapa de Calor do Potencial Elétrico no Plano zx')
 plt.show()
 
 
-# In[47]:
-
-
-#MAPA DE CALOR DO POTENCIAL ELÉTRICO NO PLANO XY-------------
+#MAPA DE CALOR DO POTENCIAL ELÉTRICO NO PLANO XY---------------------------------------------
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.special import jn
@@ -109,10 +103,7 @@ plt.gca().set_aspect('equal', adjustable='box')
 plt.show()
 
 
-# In[1]:
-
-
-#MAPA DE CALOR DO POTENCIAL ELÉTRICO NO PLANO ZY--------
+#MAPA DE CALOR DO POTENCIAL ELÉTRICO NO PLANO ZY----------------------------------------
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.special import jn
