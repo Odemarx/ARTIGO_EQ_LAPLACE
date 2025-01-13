@@ -1,10 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[42]:
-
-
-#MAPA CALOR POTENCIAL ELÉTRICO NO PLANO ZY LINHAS EQUIPOTENCIAIS-------
+#MAPA CALOR POTENCIAL ELÉTRICO NO PLANO ZY LINHAS EQUIPOTENCIAIS--------------------------------
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.special import legendre
@@ -56,10 +53,7 @@ plt.grid(True)
 plt.show()
 
 
-# In[1]:
-
-
-#MAPA CALOR POTENCIAL ELÉTRICO NO PLANO ZX-------
+#MAPA CALOR POTENCIAL ELÉTRICO NO PLANO ZX---------------------------------------
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.special import legendre
