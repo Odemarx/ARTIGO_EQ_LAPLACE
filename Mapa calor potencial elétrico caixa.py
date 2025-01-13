@@ -1,10 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
-#MAPA DE CALOR POTENCIAL NO PLANO ZX----------------------
+#MAPA DE CALOR POTENCIAL NO PLANO ZX----------------------------------------------------------------------------------
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -47,10 +44,7 @@ plt.grid(True)
 plt.show()
 
 
-# In[4]:
-
-
-#MAPA DE CALOR POTENCIAL NO PLANO ZY---------------
+#MAPA DE CALOR POTENCIAL NO PLANO ZY---------------------------------------------------------------------------
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -92,11 +86,7 @@ plt.title('Mapa de Calor do Potencial no Plano zy (x = a / 2)')
 plt.grid(True)
 plt.show()
 
-
-# In[1]:
-
-
-#MAPA DE CALOR POTENCIAL NO PLANO XY----------------------
+#MAPA DE CALOR POTENCIAL NO PLANO XY------------------------------------------------------------
 import numpy as np
 import matplotlib.pyplot as plt
 
