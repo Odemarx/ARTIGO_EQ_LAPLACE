@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[43]:
-
-
 #CAMPO ELÉTRICO INTERNO AO CILINDRO 3D-----------------------------------------------------
 import numpy as np
 import matplotlib.pyplot as plt
@@ -13,7 +10,7 @@ import scipy.special as sp
 # Define a função vetorial
 def cyl_vector_field(rho, phi, z):
     R = 2  # Define valor 2 para o raio do cilindro
-    h = 6  # Define valor 1 para a altura do cilindro
+    h = 6  # Define valor 6 para a altura do cilindro
     U_0 = 1  # Define valor 1 para o potencial
     lmax = 10  # Valor máximo de l (número de termos do somatório)
 
@@ -28,7 +25,7 @@ def cyl_vector_field(rho, phi, z):
         jvp_0_n = sp.jvp(0, k, 1)
 
         # Forma explícita da componente radial do campo elétrico
-        Erho += 4 * U_0 / ((2 * l + 1) * np.pi * sp.jv(0, k * R)) * sp.jvp(0, k * rho, 1) *                 np.sin((2 * l + 1) * np.pi / h * z)
+        Erho += 4 * U_0 / ((2 * l + 1) * np.pi * sp.jv(0, k * R)) * sp.jvp(0, k * rho, 1) * np.sin((2 * l + 1) * np.pi / h * z)
 
     Ephi = 0  # Componente do campo na direção azimutal
 
